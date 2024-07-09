@@ -20,7 +20,6 @@ The original system and the change are visualized in the following images. The m
 <div style="text-align: center;">
   <img src="./doc/images/posledicen_premik.png" alt="Original system" title="Original system" height=300>
   <img src="./doc/images/sprememba_sis.png" alt="Modified system" title="Modified system." height=300>
-  <figcaption>Original cable system left, modified cable system right.</figcaption>
 </div>
 
 
@@ -34,7 +33,6 @@ A large majority of the project's time was spent on designing the robotic hand a
 
 <div style="text-align: center;">
   <img src="./doc/images/hand_solid.png" alt="Original system" title="Original system" height=500>
-  <figcaption>Full robotic hand in SolidWorks.</figcaption>
 </div>
 
 All parts required can be found in `/parts`.
@@ -51,14 +49,12 @@ The first thing that was tested was the operation viability of this prototype by
 
 <div style="text-align: center;">
   <img src="./doc/images/upogib.gif" alt="Finger oscillation" title="Finger oscillation" height=500>
-  <figcaption>Oscillation of the hand's finger.</figcaption>
 </div>
 
 The second thing that was tested was the grasping ability of the hand's design. This test was done through manual movement of fingers. It followed the grasping taxonomy and is visualized below. Things that were found lacking was no movement in the palm under the little and ring finger (CMC joint) and the thumb orientation. These made grasping in some cases difficult as a correct angle for thumb opposition is required for a truly strong grasp. The other thing that was found was that the adaptability that the lateral movement of fingers offer, wasn't really necessary, specially in the middle and ring fingers. In this case it's possible to reduce structure complexity without reducing grasping capability.
 
 <div style="text-align: center;">
   <img src="./doc/images/teksonomija.png" alt="Grasping taxonomy" title="Grasping taxonomy" height=500>
-  <figcaption>Grasping taxonomy.</figcaption>
 </div>
 
 ## Other comments
